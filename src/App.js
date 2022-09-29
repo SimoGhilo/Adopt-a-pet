@@ -12,8 +12,8 @@ function App() {
       <div>
         <Navigation />
         <Switch>
-          <Route>
-            <PetDetailsNotFound path="/pet-details-not-found" />
+          <Route path="/pet-details-not-found" >
+            <PetDetailsNotFound />
           </Route>
           <Route path="/search">
             <SearchPage />
